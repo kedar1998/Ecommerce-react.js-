@@ -14,7 +14,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
     <Auth0Provider
-    domain={process.env.REACT_APP_AUTH_DOMAIN}
+    domain="https://ecommerce1001.netlify.app"
     clientId={process.env.REACT_APP_CLIENT_ID}
     authorizationParams={{
       redirect_uri: window.location.origin
